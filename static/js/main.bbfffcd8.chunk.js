@@ -1,2 +1,0 @@
-(this.webpackJsonpgithub_page=this.webpackJsonpgithub_page||[]).push([[0],{9:function(t,e,n){"use strict";n.r(e);var c=n(1),i=n.n(c),r=n(3),u=n.n(r),o=n(0);var a=function(){return Object(o.jsx)("h1",{children:"Super Github Page"})},g=function(t){t&&t instanceof Function&&n.e(3).then(n.bind(null,10)).then((function(e){var n=e.getCLS,c=e.getFID,i=e.getFCP,r=e.getLCP,u=e.getTTFB;n(t),c(t),i(t),r(t),u(t)}))};u.a.render(Object(o.jsx)(i.a.StrictMode,{children:Object(o.jsx)(a,{})}),document.getElementById("root")),g()}},[[9,1,2]]]);
-//# sourceMappingURL=main.bbfffcd8.chunk.js.map
