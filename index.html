@@ -1,1 +1,498 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Private page"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>Jakub Melkowski</title><style>html{height:100%}body{height:100%;margin:0;background-repeat:no-repeat;background-attachment:fixed}</style><link href="/static/css/2.d7517ed0.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function t(t){for(var n,i,l=t[0],a=t[1],p=t[2],c=0,s=[];c<l.length;c++)i=l[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in a)Object.prototype.hasOwnProperty.call(a,n)&&(e[n]=a[n]);for(f&&f(t);s.length;)s.shift()();return u.push.apply(u,p||[]),r()}function r(){for(var e,t=0;t<u.length;t++){for(var r=u[t],n=!0,l=1;l<r.length;l++){var a=r[l];0!==o[a]&&(n=!1)}n&&(u.splice(t--,1),e=i(i.s=r[0]))}return e}var n={},o={1:0},u=[];function i(t){if(n[t])return n[t].exports;var r=n[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,i),r.l=!0,r.exports}i.m=e,i.c=n,i.d=function(e,t,r){i.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,t){if(1&t&&(e=i(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(i.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)i.d(r,n,function(t){return e[t]}.bind(null,n));return r},i.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(t,"a",t),t},i.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},i.p="/";var l=this.webpackJsonpgithub_page=this.webpackJsonpgithub_page||[],a=l.push.bind(l);l.push=t,l=l.slice();for(var p=0;p<l.length;p++)t(l[p]);var f=a;r()}([])</script><script src="/static/js/2.37ffc327.chunk.js"></script><script src="/static/js/main.d10ced3a.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/utility.css" />
+    <link rel="stylesheet" href="./styles/animations.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/card.css" />
+    <link rel="stylesheet" href="./styles/icons.css" />
+
+    <title>Jakub Melkowski</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="container flex-row items-center">
+        <a href="#me" class="nav__item">About me</a>
+        <a href="#skills" class="nav__item">Skills</a>
+        <a href="#projects" class="nav__item">Projects</a>
+      </div>
+    </nav>
+
+    <main>
+      <section id="hi">
+        <article class="container flex-col items-center">
+          <h1 class="hi__name">Jakub Melkowski</h1>
+          <h2 class="hi__title">Frontend Developer</h2>
+          <div class="hi__more"></div>
+        </article>
+      </section>
+
+      <section id="me">
+        <article class="container">
+          <header>About me</header>
+          <div class="me__desc flex-col items-center">
+            <p class="me__about">
+              I am <strong>freshly graduated</strong> Frontend Developer,
+              excited to work in flexible team. Sometimes stubborn but
+              <strong>fast learner</strong> and passionate about programming.
+            </p>
+            <div class="me__icons flex-row">
+              <a href="mailto:brofix@protonmail.com">
+                <img class="me__icon" src="./images/mail.svg" alt="Mail Icon" />
+              </a>
+              <a
+                href="https://github.com/Blatts12"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  class="me__icon"
+                  src="./images/logo-github.svg"
+                  alt="GitHub Logo"
+                />
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="skills">
+        <article class="container">
+          <header>Skills</header>
+          <div class="icons flex-col items-center">
+            <div class="icons__row flex-row">
+              <div class="icons__item" tabindex="0">
+                <div class="icons__body">
+                  <img
+                    class="icons__logo"
+                    src="./images/css3-logo.svg"
+                    alt="CSS Logo"
+                  />
+                </div>
+                <div class="icons__title">CSS</div>
+              </div>
+
+              <div class="icons__item" tabindex="0">
+                <div class="icons__body">
+                  <img
+                    class="icons__logo"
+                    src="./images/html5-logo.svg"
+                    alt="HTML Logo"
+                  />
+                </div>
+                <div class="icons__title">HTML</div>
+              </div>
+
+              <div class="icons__item" tabindex="0">
+                <div class="icons__body">
+                  <img
+                    class="icons__logo"
+                    src="./images/js-logo.svg"
+                    alt="JavaScript Logo"
+                  />
+                </div>
+                <div class="icons__title">JavaScript</div>
+              </div>
+
+              <div class="icons__item" tabindex="0">
+                <div class="icons__body">
+                  <img
+                    class="icons__logo"
+                    src="./images/ts-logo.svg"
+                    alt="TypeScript Logo"
+                  />
+                </div>
+                <div class="icons__title">TypeScript</div>
+              </div>
+
+              <div class="icons__item" tabindex="0">
+                <div class="icons__body">
+                  <img
+                    class="icons__logo"
+                    src="./images/sass-logo.svg"
+                    alt="SASS Logo"
+                  />
+                </div>
+                <div class="icons__title">SASS</div>
+              </div>
+
+              <div class="icons__item" tabindex="0">
+                <div class="icons__body">
+                  <img
+                    class="icons__logo"
+                    src="./images/bem-logo.svg"
+                    alt="BEM Logo"
+                  />
+                </div>
+                <div class="icons__title">BEM</div>
+              </div>
+            </div>
+
+            <div class="icons__row flex-row">
+              <div class="icons__item" tabindex="0">
+                <div class="icons__body">
+                  <img
+                    class="icons__logo"
+                    src="./images/sc-logo.png"
+                    alt="Styled Components Logo"
+                  />
+                </div>
+                <div class="icons__title">Styled&nbsp;Components</div>
+              </div>
+
+              <div class="icons__item" tabindex="0">
+                <div class="icons__body">
+                  <img
+                    class="icons__logo"
+                    src="./images/react-logo.svg"
+                    alt="React Logo"
+                  />
+                </div>
+                <div class="icons__title">React</div>
+              </div>
+
+              <div class="icons__item" tabindex="0">
+                <div class="icons__body">
+                  <img
+                    class="icons__logo"
+                    src="./images/redux-logo.svg"
+                    alt="Redux Logo"
+                  />
+                </div>
+                <div class="icons__title">Redux</div>
+              </div>
+
+              <div class="icons__item" tabindex="0">
+                <div class="icons__body">
+                  <img
+                    class="icons__logo"
+                    src="./images/rr-logo.svg"
+                    alt="React Router Logo"
+                  />
+                </div>
+                <div class="icons__title">React&nbsp;Router</div>
+              </div>
+
+              <div class="icons__item" tabindex="0">
+                <div class="icons__body">
+                  <img
+                    class="icons__logo"
+                    src="./images/bs5-logo.svg"
+                    alt="Bootstrap Logo"
+                  />
+                </div>
+                <div class="icons__title">Bootstrap</div>
+              </div>
+            </div>
+            <div class="icons__row flex-row">
+              <div class="icons__item" tabindex="0">
+                <div class="icons__body">
+                  <img
+                    class="icons__logo"
+                    src="./images/python-logo.svg"
+                    alt="Python Logo"
+                  />
+                </div>
+                <div class="icons__title">Python</div>
+              </div>
+
+              <div class="icons__item" tabindex="0">
+                <div class="icons__body">
+                  <img
+                    class="icons__logo"
+                    src="./images/dj-logo.svg"
+                    alt="Django Logo"
+                  />
+                </div>
+                <div class="icons__title">Django</div>
+              </div>
+
+              <div class="icons__item" tabindex="0">
+                <div class="icons__body">
+                  <img
+                    class="icons__logo"
+                    src="./images/drf-logo.png"
+                    alt="Django Rest Framework Logo"
+                    style="width: 10000px"
+                  />
+                </div>
+                <div class="icons__title">DRF</div>
+              </div>
+
+              <div class="icons__item" tabindex="0">
+                <div class="icons__body">
+                  <img
+                    class="icons__logo"
+                    src="./images/git-logo.svg"
+                    alt="Git Logo"
+                  />
+                </div>
+                <div class="icons__title">Git</div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="projects">
+        <article class="container">
+          <header>Projects</header>
+          <div class="cards flex-col items-center">
+            <!-- TCopy -->
+            <article class="card slide-in slide-in--left">
+              <h3 class="card__title">TCopy</h3>
+              <div class="card__body">
+                <div class="card__img-container">
+                  <img
+                    class="card__img"
+                    src="./images/img.jpg"
+                    alt="TCopy Frontend Website"
+                  />
+                </div>
+
+                <div class="card__content">
+                  <div class="card__desc">
+                    <strong>Actively developed</strong> toned down copy of
+                    Twitter.
+                    <ul>
+                      <li>
+                        Frontend composed with TypeScript, React and SASS.
+                      </li>
+                      <li>Designed with Mobile First manner.</li>
+                      <li>
+                        Performant feeds thanks to infinity scrolling and
+                        virtualized lists.
+                      </li>
+                      <li>Backend powered by Django and PostgreSQL.</li>
+                      <li>Token authentication with Django Rest Knox.</li>
+                    </ul>
+                  </div>
+                  <div class="card__links">
+                    <a
+                      href="https://github.com/Blatts12/tcopy-web"
+                      class="card__link"
+                      target="_blank"
+                      rel="noopener"
+                      >Frontend</a
+                    >
+                    <a
+                      href="https://github.com/Blatts12/tcopy"
+                      class="card__link"
+                      target="_blank"
+                      rel="noopener"
+                      >Backend</a
+                    >
+                    <a
+                      href="https://tcopy-web.vercel.app/"
+                      class="card__link card__link--two-col"
+                      target="_blank"
+                      rel="noopener"
+                      >Demo</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Simple Blog -->
+            <article class="card slide-in slide-in--right">
+              <h3 class="card__title">SimpleBlog</h3>
+              <div class="card__body">
+                <div class="card__content">
+                  <div class="card__desc">
+                    Blog website with accounts and comments.
+                    <ul>
+                      <li>Multiple Bloggers.</li>
+                      <li>Comment moderation.</li>
+                      <li>Post written in Markdown.</li>
+                    </ul>
+                  </div>
+                  <div class="card__links">
+                    <a
+                      href="https://github.com/Blatts12/simple-blog"
+                      class="card__link card__link--two-col"
+                      target="_blank"
+                      rel="noopener"
+                      >Source</a
+                    >
+                  </div>
+                </div>
+
+                <div class="card__img-container">
+                  <img
+                    class="card__img"
+                    src="./images/img.jpg"
+                    alt="SimpleBlog Website"
+                  />
+                </div>
+              </div>
+            </article>
+
+            <!-- YT HoL -->
+            <article class="card slide-in slide-in--left">
+              <h3 class="card__title">YouTube Higher or Lower</h3>
+              <div class="card__body">
+                <div class="card__img-container">
+                  <img
+                    class="card__img"
+                    src="./images/img.jpg"
+                    alt="YouTube Higher or Lower Website"
+                  />
+                </div>
+
+                <div class="card__content">
+                  <div class="card__desc">
+                    Higher or Lower game but with number of views from Youtube
+                    videos.
+                    <ul>
+                      <li>Backend fetch views from YouTube API.</li>
+                      <li>Number of views update after 24 hours.</li>
+                    </ul>
+                  </div>
+                  <div class="card__links">
+                    <a
+                      href="https://github.com/Blatts12/higher-or-lower-yt-edition"
+                      class="card__link card__link--two-col"
+                      target="_blank"
+                      rel="noopener"
+                      >Source</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Pedestrian Counter -->
+            <article class="card slide-in slide-in--right">
+              <h3 class="card__title">Pedestrian Counter</h3>
+              <div class="card__body">
+                <div class="card__content">
+                  <div class="card__desc">
+                    Application created for thesis - counts people crossing
+                    virtual line.
+                    <ul>
+                      <li>
+                        Pedestrian detection using YOLOv4 and MobileNet SSD
+                        models.
+                      </li>
+                      <li>
+                        Detected people tracked via Centroid Tracker algorithm.
+                      </li>
+                      <li>Application created with PyQT, OpenCV and numpy.</li>
+                    </ul>
+                  </div>
+                  <div class="card__links">
+                    <a
+                      href="https://github.com/Blatts12/PedestrianCounter"
+                      class="card__link card__link--two-col"
+                      target="_blank"
+                      rel="noopener"
+                      >Source</a
+                    >
+                  </div>
+                </div>
+
+                <div class="card__img-container">
+                  <img
+                    class="card__img"
+                    src="./images/img.jpg"
+                    alt="Pedestrian Counter UI"
+                  />
+                </div>
+              </div>
+            </article>
+
+            <!-- MeloDIE -->
+            <article class="card slide-in slide-in--left">
+              <h3 class="card__title">MeloDIE</h3>
+              <div class="card__body">
+                <div class="card__img-container">
+                  <img
+                    class="card__img"
+                    src="./images/img.jpg"
+                    alt="MeloDIE UI"
+                  />
+                </div>
+
+                <div class="card__content">
+                  <div class="card__desc">
+                    Application that allows to listen to YouTube playlists.
+                    <ul>
+                      <li>No video, only audio - thanks to yt-dlp.</li>
+                      <li>Low footprint on cpu and network.</li>
+                      <li>
+                        Fully controllable via keyboard with global hotkeys.
+                      </li>
+                      <li>
+                        Songs can be downloaded or listened from YouTube
+                        servers.
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card__links">
+                    <a
+                      href="https://github.com/Blatts12/MeloDIE"
+                      class="card__link card__link--two-col"
+                      target="_blank"
+                      rel="noopener"
+                      >Source</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <h2>Footer</h2>
+        <div class="flex-row">
+          <div class="footer__container">
+            <h3>Contact</h3>
+            <ul>
+              <li>
+                <a href="mailto:brofix@protonmail.com" class="footer__link">
+                  brofix@protonmail.com
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__container">
+            <h3>Links</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/Blatts12"
+                  class="footer__link"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  GitHub
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./scripts/observers.js"></script>
+  </body>
+</html>
