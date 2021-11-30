@@ -32,16 +32,10 @@
   --clr-secondary-900: hsl(287, 18%, 15%);
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  overflow-x: hidden;
-}
-
 html,
 body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
   font-family: "Raleway", sans-serif;
 }
 
