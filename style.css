@@ -19,12 +19,6 @@ main {
   position: relative;
 }
 
-.blur {
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
 a {
   color: white;
 }
@@ -33,10 +27,16 @@ a:hover {
   color: rgb(255, 255, 255, 0.7);
 }
 
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 .links {
   margin-top: 0.5rem;
   display: flex;
-  gap: 1rem;
+  gap: 0.6rem;
 }
 
 .rick {
