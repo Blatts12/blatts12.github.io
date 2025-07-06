@@ -1,0 +1,44 @@
+@import url(https://fonts.bunny.net/css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  color: whitesmoke;
+  background-image: url("./images/hi-bg.png");
+  display: grid;
+  place-items: center;
+  min-height: 100svh;
+}
+
+main {
+  position: relative;
+}
+
+.blur {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.links {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.rick {
+  display: none;
+}

@@ -6,497 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.bunny.net" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap"
+      href="https://fonts.bunny.net/css?family=raleway:100,200,300,400,500,600,700,800,900"
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/utility.css" />
-    <link rel="stylesheet" href="./styles/animations.css" />
-    <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="stylesheet" href="./styles/card.css" />
-    <link rel="stylesheet" href="./styles/icons.css" />
+    <link rel="stylesheet" href="./style.css" />
 
     <title>Jakub Melkowski</title>
   </head>
 
   <body>
-    <nav>
-      <div class="container flex-row items-center">
-        <a href="#me" class="nav__item">About me</a>
-        <a href="#skills" class="nav__item">Skills</a>
-        <a href="#projects" class="nav__item">Projects</a>
-      </div>
-    </nav>
-
+    <div class="blur"></div>
     <main>
-      <section id="hi">
-        <article class="container flex-col items-center">
-          <h1 class="hi__name">Jakub Melkowski</h1>
-          <h2 class="hi__title">Frontend Developer</h2>
-          <div class="hi__more"></div>
-        </article>
-      </section>
-
-      <section id="me">
-        <article class="container">
-          <header>About me</header>
-          <div class="me__desc flex-col items-center">
-            <p class="me__about">
-              I am <strong>freshly graduated</strong> Frontend Developer,
-              excited to work in flexible team. Sometimes stubborn but
-              <strong>fast learner</strong> and passionate about programming.
-            </p>
-            <div class="me__icons flex-row">
-              <a href="mailto:brofix@protonmail.com">
-                <img
-                  class="me__icon"
-                  src="./images/icons/mail.svg"
-                  alt="Mail Icon"
-                />
-              </a>
-              <a
-                href="https://github.com/Blatts12"
-                target="_blank"
-                rel="noopener"
-              >
-                <img
-                  class="me__icon"
-                  src="./images/icons/logo-github.svg"
-                  alt="GitHub Logo"
-                />
-              </a>
-            </div>
-          </div>
-        </article>
-      </section>
-
-      <section id="skills">
-        <article class="container">
-          <header>Skills</header>
-          <div class="icons flex-col items-center">
-            <div class="icons__row flex-row">
-              <div class="icons__item" tabindex="0">
-                <div class="icons__body">
-                  <img
-                    class="icons__logo"
-                    src="./images/skills_icons/css3-logo.svg"
-                    alt="CSS Logo"
-                  />
-                </div>
-                <div class="icons__title">CSS</div>
-              </div>
-
-              <div class="icons__item" tabindex="0">
-                <div class="icons__body">
-                  <img
-                    class="icons__logo"
-                    src="./images/skills_icons/html5-logo.svg"
-                    alt="HTML Logo"
-                  />
-                </div>
-                <div class="icons__title">HTML</div>
-              </div>
-
-              <div class="icons__item" tabindex="0">
-                <div class="icons__body">
-                  <img
-                    class="icons__logo"
-                    src="./images/skills_icons/js-logo.svg"
-                    alt="JavaScript Logo"
-                  />
-                </div>
-                <div class="icons__title">JavaScript</div>
-              </div>
-
-              <div class="icons__item" tabindex="0">
-                <div class="icons__body">
-                  <img
-                    class="icons__logo"
-                    src="./images/skills_icons/ts-logo.svg"
-                    alt="TypeScript Logo"
-                  />
-                </div>
-                <div class="icons__title">TypeScript</div>
-              </div>
-
-              <div class="icons__item" tabindex="0">
-                <div class="icons__body">
-                  <img
-                    class="icons__logo"
-                    src="./images/skills_icons/sass-logo.svg"
-                    alt="SASS Logo"
-                  />
-                </div>
-                <div class="icons__title">SASS</div>
-              </div>
-
-              <div class="icons__item" tabindex="0">
-                <div class="icons__body">
-                  <img
-                    class="icons__logo"
-                    src="./images/skills_icons/bem-logo.svg"
-                    alt="BEM Logo"
-                  />
-                </div>
-                <div class="icons__title">BEM</div>
-              </div>
-            </div>
-
-            <div class="icons__row flex-row">
-              <div class="icons__item" tabindex="0">
-                <div class="icons__body">
-                  <img
-                    class="icons__logo"
-                    src="./images/skills_icons/sc-logo.png"
-                    alt="Styled Components Logo"
-                  />
-                </div>
-                <div class="icons__title">Styled&nbsp;Components</div>
-              </div>
-
-              <div class="icons__item" tabindex="0">
-                <div class="icons__body">
-                  <img
-                    class="icons__logo"
-                    src="./images/skills_icons/react-logo.svg"
-                    alt="React Logo"
-                  />
-                </div>
-                <div class="icons__title">React</div>
-              </div>
-
-              <div class="icons__item" tabindex="0">
-                <div class="icons__body">
-                  <img
-                    class="icons__logo"
-                    src="./images/skills_icons/redux-logo.svg"
-                    alt="Redux Logo"
-                  />
-                </div>
-                <div class="icons__title">Redux</div>
-              </div>
-
-              <div class="icons__item" tabindex="0">
-                <div class="icons__body">
-                  <img
-                    class="icons__logo"
-                    src="./images/skills_icons/rr-logo.svg"
-                    alt="React Router Logo"
-                  />
-                </div>
-                <div class="icons__title">React&nbsp;Router</div>
-              </div>
-
-              <div class="icons__item" tabindex="0">
-                <div class="icons__body">
-                  <img
-                    class="icons__logo"
-                    src="./images/skills_icons/bs5-logo.svg"
-                    alt="Bootstrap Logo"
-                  />
-                </div>
-                <div class="icons__title">Bootstrap</div>
-              </div>
-            </div>
-            <div class="icons__row flex-row">
-              <div class="icons__item" tabindex="0">
-                <div class="icons__body">
-                  <img
-                    class="icons__logo"
-                    src="./images/skills_icons/python-logo.svg"
-                    alt="Python Logo"
-                  />
-                </div>
-                <div class="icons__title">Python</div>
-              </div>
-
-              <div class="icons__item" tabindex="0">
-                <div class="icons__body">
-                  <img
-                    class="icons__logo"
-                    src="./images/skills_icons/dj-logo.svg"
-                    alt="Django Logo"
-                  />
-                </div>
-                <div class="icons__title">Django</div>
-              </div>
-
-              <div class="icons__item" tabindex="0">
-                <div class="icons__body">
-                  <img
-                    class="icons__logo"
-                    src="./images/skills_icons/drf-logo.png"
-                    alt="Django Rest Framework Logo"
-                    style="width: 10000px"
-                  />
-                </div>
-                <div class="icons__title">DRF</div>
-              </div>
-
-              <div class="icons__item" tabindex="0">
-                <div class="icons__body">
-                  <img
-                    class="icons__logo"
-                    src="./images/skills_icons/git-logo.svg"
-                    alt="Git Logo"
-                  />
-                </div>
-                <div class="icons__title">Git</div>
-              </div>
-            </div>
-          </div>
-        </article>
-      </section>
-
-      <section id="projects">
-        <article class="container">
-          <header>Projects</header>
-          <div class="cards flex-col items-center">
-            <!-- TCopy -->
-            <article class="card slide-in slide-in--left">
-              <h3 class="card__title">TCopy</h3>
-              <div class="card__body">
-                <div class="card__img-container">
-                  <img
-                    class="card__img"
-                    src="./images/projects/tcopy.png"
-                    alt="TCopy Frontend Website"
-                  />
-                </div>
-
-                <div class="card__content">
-                  <div class="card__desc">
-                    <strong>Actively developed</strong> toned down copy of
-                    Twitter.
-                    <ul>
-                      <li>
-                        Frontend composed with TypeScript, React and SASS.
-                      </li>
-                      <li>Designed with Mobile First manner.</li>
-                      <li>
-                        Performant feeds thanks to infinity scrolling and
-                        virtualized lists.
-                      </li>
-                      <li>Backend powered by Django and PostgreSQL.</li>
-                      <li>Token authentication with Django Rest Knox.</li>
-                    </ul>
-                  </div>
-                  <div class="card__links">
-                    <a
-                      href="https://github.com/Blatts12/tcopy-web"
-                      class="card__link"
-                      target="_blank"
-                      rel="noopener"
-                      >Frontend</a
-                    >
-                    <a
-                      href="https://github.com/Blatts12/tcopy"
-                      class="card__link"
-                      target="_blank"
-                      rel="noopener"
-                      >Backend</a
-                    >
-                    <a
-                      href="https://tcopy-web.vercel.app/"
-                      class="card__link card__link--two-col"
-                      target="_blank"
-                      rel="noopener"
-                      >Demo</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            <!-- Simple Blog -->
-            <article class="card slide-in slide-in--right">
-              <h3 class="card__title">SimpleBlog</h3>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__desc">
-                    Blog website with accounts and comments.
-                    <ul>
-                      <li>Multiple Bloggers.</li>
-                      <li>Comment moderation.</li>
-                      <li>Post written in Markdown.</li>
-                    </ul>
-                  </div>
-                  <div class="card__links">
-                    <a
-                      href="https://github.com/Blatts12/simple-blog"
-                      class="card__link card__link--two-col"
-                      target="_blank"
-                      rel="noopener"
-                      >Source</a
-                    >
-                  </div>
-                </div>
-
-                <div class="card__img-container">
-                  <img
-                    class="card__img"
-                    src="./images/projects/blog.png"
-                    alt="SimpleBlog Website"
-                  />
-                </div>
-              </div>
-            </article>
-
-            <!-- YT HoL -->
-            <article class="card slide-in slide-in--left">
-              <h3 class="card__title">YouTube Higher or Lower</h3>
-              <div class="card__body">
-                <div class="card__img-container">
-                  <img
-                    class="card__img"
-                    src="./images/projects/hol.png"
-                    alt="YouTube Higher or Lower Website"
-                  />
-                </div>
-
-                <div class="card__content">
-                  <div class="card__desc">
-                    Higher or Lower game but with number of views from Youtube
-                    videos.
-                    <ul>
-                      <li>Backend fetch views from YouTube API.</li>
-                      <li>Number of views update after 24 hours.</li>
-                    </ul>
-                  </div>
-                  <div class="card__links">
-                    <a
-                      href="https://github.com/Blatts12/higher-or-lower-yt-edition"
-                      class="card__link card__link--two-col"
-                      target="_blank"
-                      rel="noopener"
-                      >Source</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            <!-- Pedestrian Counter -->
-            <article class="card slide-in slide-in--right">
-              <h3 class="card__title">Pedestrian Counter</h3>
-              <div class="card__body">
-                <div class="card__content">
-                  <div class="card__desc">
-                    Application created for thesis - counts people crossing
-                    virtual line.
-                    <ul>
-                      <li>
-                        Pedestrian detection using YOLOv4 and MobileNet SSD
-                        models.
-                      </li>
-                      <li>
-                        Detected people tracked via Centroid Tracker algorithm.
-                      </li>
-                      <li>Application created with PyQT, OpenCV and numpy.</li>
-                    </ul>
-                  </div>
-                  <div class="card__links">
-                    <a
-                      href="https://github.com/Blatts12/PedestrianCounter"
-                      class="card__link card__link--two-col"
-                      target="_blank"
-                      rel="noopener"
-                      >Source</a
-                    >
-                  </div>
-                </div>
-
-                <div class="card__img-container">
-                  <img
-                    class="card__img"
-                    src="./images/projects/ped-con.png"
-                    alt="Pedestrian Counter UI"
-                  />
-                </div>
-              </div>
-            </article>
-
-            <!-- MeloDIE -->
-            <article class="card slide-in slide-in--left">
-              <h3 class="card__title">MeloDIE</h3>
-              <div class="card__body">
-                <div class="card__img-container">
-                  <img
-                    class="card__img"
-                    src="./images/projects/melodie.png"
-                    alt="MeloDIE UI"
-                  />
-                </div>
-
-                <div class="card__content">
-                  <div class="card__desc">
-                    Application that allows to listen to YouTube playlists.
-                    <ul>
-                      <li>No video, only audio - thanks to yt-dlp.</li>
-                      <li>Low footprint on cpu and network.</li>
-                      <li>
-                        Fully controllable via keyboard with global hotkeys.
-                      </li>
-                      <li>
-                        Songs can be downloaded or listened from YouTube
-                        servers.
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="card__links">
-                    <a
-                      href="https://github.com/Blatts12/MeloDIE"
-                      class="card__link card__link--two-col"
-                      target="_blank"
-                      rel="noopener"
-                      >Source</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-        </article>
-      </section>
-    </main>
-
-    <footer>
-      <div class="container">
-        <h2>Footer</h2>
-        <div class="flex-row">
-          <div class="footer__container">
-            <h3>Contact</h3>
-            <ul>
-              <li>
-                <a href="mailto:brofix@protonmail.com" class="footer__link">
-                  brofix@protonmail.com
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer__container">
-            <h3>Links</h3>
-            <ul>
-              <li>
-                <a
-                  href="https://github.com/Blatts12"
-                  class="footer__link"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  GitHub
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <h1>Jakub Melkowski</h1>
+      <p>Elixir & React Developer</p>
+      <div class="links">
+        <a href="https://github.com/Blatts12" aria-label="Github">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="icon icon-tabler icons-tabler-filled icon-tabler-brand-github"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M5.315 2.1c.791 -.113 1.9 .145 3.333 .966l.272 .161l.16 .1l.397 -.083a13.3 13.3 0 0 1 4.59 -.08l.456 .08l.396 .083l.161 -.1c1.385 -.84 2.487 -1.17 3.322 -1.148l.164 .008l.147 .017l.076 .014l.05 .011l.144 .047a1 1 0 0 1 .53 .514a5.2 5.2 0 0 1 .397 2.91l-.047 .267l-.046 .196l.123 .163c.574 .795 .93 1.728 1.03 2.707l.023 .295l.007 .272c0 3.855 -1.659 5.883 -4.644 6.68l-.245 .061l-.132 .029l.014 .161l.008 .157l.004 .365l-.002 .213l-.003 3.834a1 1 0 0 1 -.883 .993l-.117 .007h-6a1 1 0 0 1 -.993 -.883l-.007 -.117v-.734c-1.818 .26 -3.03 -.424 -4.11 -1.878l-.535 -.766c-.28 -.396 -.455 -.579 -.589 -.644l-.048 -.019a1 1 0 0 1 .564 -1.918c.642 .188 1.074 .568 1.57 1.239l.538 .769c.76 1.079 1.36 1.459 2.609 1.191l.001 -.678l-.018 -.168a5.03 5.03 0 0 1 -.021 -.824l.017 -.185l.019 -.12l-.108 -.024c-2.976 -.71 -4.703 -2.573 -4.875 -6.139l-.01 -.31l-.004 -.292a5.6 5.6 0 0 1 .908 -3.051l.152 -.222l.122 -.163l-.045 -.196a5.2 5.2 0 0 1 .145 -2.642l.1 -.282l.106 -.253a1 1 0 0 1 .529 -.514l.144 -.047l.154 -.03z"
+            />
+          </svg>
+        </a>
+        <a href="mailto:brofix@protonmail.com" aria-label="Email">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="icon icon-tabler icons-tabler-filled icon-tabler-mail"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z"
+            />
+            <path
+              d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z"
+            />
+          </svg>
+        </a>
       </div>
-    </footer>
-
-    <script src="./scripts/observers.js"></script>
+      <div class="rick">
+        Never gonna give you up, never gonna let you down Never gonna run around
+        and desert you Never gonna make you cry, never gonna say goodbye Never
+        gonna tell a lie and hurt you
+      </div>
+    </main>
   </body>
 </html>
